@@ -1,0 +1,19 @@
+Prompt:
+Write a simple HTML/CSS/JS game for “Equal Path.”
+Game flow:
+1. Menu screen with “Start Game” button.
+2. Play screen: show current turn, equity, and budget.
+3. Display 3 random policy cards per turn.
+4. Each card adjusts equity and budget (random small changes).
+5. After 10 turns, go to Result screen:
+   - Win if equity ≥ 70 and budget ≥ 0.
+   - Lose otherwise.
+
+Requirements:
+- Use plain HTML/CSS/JS (no backend).
+- Keep layout responsive and clean.
+- Use alert or on-screen text for results.
+
+Model Response (summarized):
+Generated index.html, style.css, and script.js implementing game logic.
+Game tested to run fully offline by opening index.html.
