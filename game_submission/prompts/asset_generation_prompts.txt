@@ -1,0 +1,22 @@
+Prompt:
+Generate simple, minimalistic visual ideas for the game "Equal Path."
+Each card should represent a government policy with an icon and text.
+
+Requirements:
+- 2D flat design
+- Positive cards use green/blue tones
+- Negative cards use red/orange tones
+- Background image should be neutral (classroom, city, school)
+
+Please list:
+1. Background theme
+2. 3–5 sample card visuals
+3. Recommended free icon sites or AI generation keywords
+
+Model Response (summarized):
+Background: soft beige classroom with faint chalkboard texture.
+Cards:
+1. Fund Rural Schools — schoolhouse icon, green tone.
+2. Cut Teacher Grants — clipboard icon, red tone.
+3. Digital Learning Investment — tablet icon, blue tone.
+Free sources: flaticon.com, openclipart.org, Freepik, or prompt “flat icon of school funding policy, minimal style.”
