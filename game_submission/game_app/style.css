@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #00332b;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background: #00796b;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #004d40;
+}
+
+#cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border: 2px solid #004d40;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  background: #b2dfdb;
+  transform: translateY(-5px);
+}
+
+.subtitle {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.description {
+  max-width: 600px;
+  font-size: 1.1em;
+  color: #004d40;
+  line-height: 1.5;
+}
+
+.note {
+  font-style: italic;
+  color: #00695c;
+  margin-top: 20px;
+}
+
+footer {
+  font-size: 0.9em;
+  color: #004d40;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Equal Path - Education Equity Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🏠 WELCOME / MENU SCREEN -->
+  <div id="menu-screen" class="screen">
+    <h1>🎓 Equal Path</h1>
+    <p class="subtitle">A Policy Simulation Game on Education Equity</p>
+    <p class="description">
+      As a policymaker, you must balance <strong>education equity</strong> and <strong>budget</strong> in 10 turns.
+      Each round, choose one policy card. Some help fairness but cost money, others save funds but hurt equality.
+      Can you build a sustainable and fair education system?
+    </p>
+    <button id="start-btn">Start Game</button>
+  </div>
+
+  <!-- 🎮 GAME SCREEN -->
+  <div id="game-screen" class="screen hidden">
+    <h2>Choose Your Policy</h2>
+    <div id="stats">
+      <p>📊 Equity: <span id="equity">50</span></p>
+      <p>💰 Budget: <span id="budget">100</span></p>
+      <p>🔄 Turn: <span id="turn">1</span> / 10</p>
+    </div>
+
+    <div id="cards-container"></div>
+
+    <p class="note">Tip: Each decision has trade-offs — think before you act!</p>
+  </div>
+
+  <!-- 🏁 RESULT SCREEN -->
+  <div id="result-screen" class="screen hidden">
+    <h2 id="result-title"></h2>
+    <p id="result-message"></p>
+    <button id="restart-btn">Play Again</button>
+  </div>
+
+  <footer>
+    <p>© 2025 Equal Path | Created by GDU-K@M40iS4u (Võ Hoàng Phát)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
