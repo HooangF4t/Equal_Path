@@ -1,0 +1,21 @@
+Prompt:
+I want to design a simple browser-based educational card game that raises awareness about social inequality in education.
+The game should have simple mechanics — each turn, the player chooses between 3 policy cards that change “equity” and “budget.”
+After 10 turns, the player wins if equity ≥ 70 and budget ≥ 0.
+
+Please help me brainstorm:
+- Game name and concept
+- Main goal
+- Visual style (2D, minimal)
+- Emotions or message the player should feel
+- 2–3 examples of policy cards
+
+Model Response (summarized):
+Game title: Equal Path
+Concept: A policymaker simulation about balancing education funding and fairness.
+Visual: 2D cards with icons (school, coins, children), warm tones.
+Sample cards:
+- “Fund Rural Schools” (+10 equity, -20 budget)
+- “Cut Teacher Grants” (-15 equity, +30 budget)
+- “Community Tutoring Program” (+5 equity, -10 budget)
+Goal: Maintain both equity and fiscal stability across 10 turns.
